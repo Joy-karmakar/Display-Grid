@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(4, 4, 80);
+}
+
+.container{
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px 200px;
+    height: 600px;
+    gap: 10px;
+   
+}
+
+.child{
+    border: 1px solid blue;
+   
+}
+.box-1{
+    grid-row: span 3;
+   
+    
+}
+
+
+.box-2{
+    grid-column: span 2;
+}
+
+.box-6{
+    grid-row: span 2;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+    
+}
+.yellow{
+    background-color: yellow;
+}
+h1{
+    color: purple;
+    text-decoration: underline;
+    text-align: center;;
+}
